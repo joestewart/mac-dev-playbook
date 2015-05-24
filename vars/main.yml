@@ -1,15 +1,15 @@
 ---
 downloads: ~/.ansible-downloads/
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
-dotfiles_files:
-  - .bash_profile
-  - .gitconfig
-  - .gitignore
-  - .inputrc
-  - .osx
-  - .vimrc
+# dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+# dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+# dotfiles_files:
+#   - .bash_profile
+#   - .gitconfig
+#   - .gitignore
+#   - .inputrc
+#   - .osx
+#   - .vimrc
 
 homebrew_installed_packages:
   - ansible
@@ -29,10 +29,10 @@ homebrew_installed_packages:
   - php56
   - php56-xdebug
   - ssh-copy-id
-  - cowsay
+#  - cowsay
   - ios-sim
   - readline
-  - subversion
+#  - subversion
   - kdiff3
   - openssl
   - pv
@@ -50,27 +50,27 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - adium
-  - bettertouchtool
+#  - adium
+#  - bettertouchtool
   - google-chrome
   - dropbox
   - firefox
-  - handbrake
-  - karabiner
-  - licecap
+#  - handbrake
+#  - karabiner
+#  - licecap
   - macvim
-  - menumeters
-  - nvalt
+#  - menumeters
+#  - nvalt
   - sequel-pro
   - skype
   - skitch
-  - seil
+#  - seil
   - sublime-text # Note - Sublime Text 2 only, at this time...
   - textmate
-  - timemachineeditor
-  - tower
-  - transmit
+#  - timemachineeditor
+#  - tower
+#  - transmit
   - vagrant
   - vagrant-manager
-  - vlc
+#  - vlc
   - virtualbox
